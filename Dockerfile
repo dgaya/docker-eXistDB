@@ -13,5 +13,5 @@ ADD entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 VOLUME /opt/exist/webapp/WEB-INF/data/
-
+ENV EXIST_HOME /opt/exist
 EXPOSE 8080
